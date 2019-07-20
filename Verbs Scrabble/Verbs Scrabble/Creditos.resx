@@ -117,4 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>El desarrollo de Verbs Scrabble a sido gracias a un conjunto de personas apasionadas
+por su profesion y con el propostio de ayudar a mejorar la educacion. Sin duda esto 
+no hubiera sido posible sin su colaboración.
+
+Por esta razon se agradece a las diferentes personalidades:
+ * Gordillo Aguilar Miguel Angel de Jesus.
+ * Morales Montenegro Mario Morales.
+ * De la Cruz Medina Sergio Adrian.
+
+El desarrollo de Verbs Scrabble esta a cargo de Martinez Silva Luis Fernando .
+
+
+</value>
+  </data>
 </root>
