@@ -36,11 +36,11 @@
             this.btn_Play = new System.Windows.Forms.Button();
             this.panelExit = new System.Windows.Forms.Panel();
             this.btn_Exit = new System.Windows.Forms.PictureBox();
-            this.creditos1 = new Verbs_Scrabble.Creditos();
-            this.contacto1 = new Verbs_Scrabble.Contacto();
+            VerbsScrabble.inicio1 = new Verbs_Scrabble.Inicio();
+            VerbsScrabble.categorias1 = new Verbs_Scrabble.Categorias();
             this.tutorial1 = new Verbs_Scrabble.Tutorial();
-            this.categorias1 = new Verbs_Scrabble.Categorias();
-            this.inicio1 = new Verbs_Scrabble.Inicio();
+            this.contacto1 = new Verbs_Scrabble.Contacto();
+            this.creditos1 = new Verbs_Scrabble.Creditos();
             this.menu.SuspendLayout();
             this.panelExit.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn_Exit)).BeginInit();
@@ -70,7 +70,7 @@
             this.btn_Credits.Location = new System.Drawing.Point(3, 260);
             this.btn_Credits.Name = "btn_Credits";
             this.btn_Credits.Size = new System.Drawing.Size(177, 61);
-            this.btn_Credits.TabIndex = 3;
+            this.btn_Credits.TabIndex = 4;
             this.btn_Credits.Text = "  Credits";
             this.btn_Credits.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_Credits.UseVisualStyleBackColor = true;
@@ -104,7 +104,7 @@
             this.btn_Contact.Location = new System.Drawing.Point(3, 193);
             this.btn_Contact.Name = "btn_Contact";
             this.btn_Contact.Size = new System.Drawing.Size(177, 61);
-            this.btn_Contact.TabIndex = 1;
+            this.btn_Contact.TabIndex = 3;
             this.btn_Contact.Text = "  Contact us";
             this.btn_Contact.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_Contact.UseVisualStyleBackColor = true;
@@ -121,7 +121,7 @@
             this.btn_Play.Location = new System.Drawing.Point(3, 59);
             this.btn_Play.Name = "btn_Play";
             this.btn_Play.Size = new System.Drawing.Size(177, 61);
-            this.btn_Play.TabIndex = 0;
+            this.btn_Play.TabIndex = 1;
             this.btn_Play.Text = "   Play";
             this.btn_Play.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_Play.UseVisualStyleBackColor = true;
@@ -149,19 +149,19 @@
             this.btn_Exit.TabStop = false;
             this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
             // 
-            // creditos1
+            // inicio1
             // 
-            this.creditos1.Location = new System.Drawing.Point(177, 53);
-            this.creditos1.Name = "creditos1";
-            this.creditos1.Size = new System.Drawing.Size(667, 396);
-            this.creditos1.TabIndex = 3;
+            VerbsScrabble.inicio1.Location = new System.Drawing.Point(177, 53);
+            VerbsScrabble.inicio1.Name = "inicio1";
+            VerbsScrabble.inicio1.Size = new System.Drawing.Size(667, 396);
+            VerbsScrabble.inicio1.TabIndex = 7;
             // 
-            // contacto1
+            // categorias1
             // 
-            this.contacto1.Location = new System.Drawing.Point(177, 53);
-            this.contacto1.Name = "contacto1";
-            this.contacto1.Size = new System.Drawing.Size(667, 396);
-            this.contacto1.TabIndex = 4;
+            VerbsScrabble.categorias1.Location = new System.Drawing.Point(177, 53);
+            VerbsScrabble.categorias1.Name = "categorias1";
+            VerbsScrabble.categorias1.Size = new System.Drawing.Size(667, 396);
+            VerbsScrabble.categorias1.TabIndex = 6;
             // 
             // tutorial1
             // 
@@ -170,27 +170,27 @@
             this.tutorial1.Size = new System.Drawing.Size(667, 396);
             this.tutorial1.TabIndex = 5;
             // 
-            // categorias1
+            // contacto1
             // 
-            this.categorias1.Location = new System.Drawing.Point(177, 53);
-            this.categorias1.Name = "categorias1";
-            this.categorias1.Size = new System.Drawing.Size(667, 396);
-            this.categorias1.TabIndex = 6;
+            this.contacto1.Location = new System.Drawing.Point(177, 53);
+            this.contacto1.Name = "contacto1";
+            this.contacto1.Size = new System.Drawing.Size(667, 396);
+            this.contacto1.TabIndex = 4;
             // 
-            // inicio1
+            // creditos1
             // 
-            this.inicio1.Location = new System.Drawing.Point(177, 53);
-            this.inicio1.Name = "inicio1";
-            this.inicio1.Size = new System.Drawing.Size(667, 396);
-            this.inicio1.TabIndex = 7;
+            this.creditos1.Location = new System.Drawing.Point(177, 53);
+            this.creditos1.Name = "creditos1";
+            this.creditos1.Size = new System.Drawing.Size(667, 396);
+            this.creditos1.TabIndex = 3;
             // 
             // VerbsScrabble
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(844, 449);
-            this.Controls.Add(this.inicio1);
-            this.Controls.Add(this.categorias1);
+            this.Controls.Add(VerbsScrabble.inicio1);
+            this.Controls.Add(VerbsScrabble.categorias1);
             this.Controls.Add(this.tutorial1);
             this.Controls.Add(this.contacto1);
             this.Controls.Add(this.creditos1);
@@ -220,8 +220,8 @@
         private Creditos creditos1;
         private Contacto contacto1;
         private Tutorial tutorial1;
-        private Categorias categorias1;
-        private Inicio inicio1;
+        public static Categorias categorias1;
+        public static Inicio inicio1;
     }
 }
 

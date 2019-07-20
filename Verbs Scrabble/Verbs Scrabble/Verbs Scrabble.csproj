@@ -68,6 +68,12 @@
     <Compile Include="Creditos.Designer.cs">
       <DependentUpon>Creditos.cs</DependentUpon>
     </Compile>
+    <Compile Include="VerbsForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VerbsForm.Designer.cs">
+      <DependentUpon>VerbsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="VerbsScrabble.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Creditos.resx">
       <DependentUpon>Creditos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerbsForm.resx">
+      <DependentUpon>VerbsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VerbsScrabble.resx">
       <DependentUpon>VerbsScrabble.cs</DependentUpon>
