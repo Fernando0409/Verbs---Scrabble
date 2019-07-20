@@ -157,35 +157,42 @@
             VerbsScrabble.inicio1.Location = new System.Drawing.Point(177, 53);
             VerbsScrabble.inicio1.Name = "inicio1";
             VerbsScrabble.inicio1.Size = new System.Drawing.Size(667, 396);
-            VerbsScrabble.inicio1.TabIndex = 7;
+            VerbsScrabble.inicio1.TabIndex = 1;
             // 
             // tutorial1
             // 
             this.tutorial1.Location = new System.Drawing.Point(177, 53);
             this.tutorial1.Name = "tutorial1";
             this.tutorial1.Size = new System.Drawing.Size(667, 396);
-            this.tutorial1.TabIndex = 5;
+            this.tutorial1.TabIndex = 2;
             // 
             // contacto1
             // 
             this.contacto1.Location = new System.Drawing.Point(177, 53);
             this.contacto1.Name = "contacto1";
             this.contacto1.Size = new System.Drawing.Size(667, 396);
-            this.contacto1.TabIndex = 4;
+            this.contacto1.TabIndex = 3;
             // 
             // creditos1
             // 
             this.creditos1.Location = new System.Drawing.Point(177, 53);
             this.creditos1.Name = "creditos1";
             this.creditos1.Size = new System.Drawing.Size(667, 396);
-            this.creditos1.TabIndex = 3;
+            this.creditos1.TabIndex = 4;
             //
             // categorias1
             //
             VerbsScrabble.categorias1.Location = new System.Drawing.Point(177, 53);
             VerbsScrabble.categorias1.Name = "categorias1";
             VerbsScrabble.categorias1.Size = new System.Drawing.Size(667, 396);
-            VerbsScrabble.categorias1.TabIndex = 6;
+            VerbsScrabble.categorias1.TabIndex = 5;
+            //
+            // verbsForm1
+            //
+            VerbsScrabble.verbsForm1.Location = new System.Drawing.Point(177, 53);
+            VerbsScrabble.verbsForm1.Name = "verbsForm1";
+            VerbsScrabble.verbsForm1.Size = new System.Drawing.Size(667, 396);
+            VerbsScrabble.verbsForm1.TabIndex = 6;
             // 
             // VerbsScrabble
             // 
