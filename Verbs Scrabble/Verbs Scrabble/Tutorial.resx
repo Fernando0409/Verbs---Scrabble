@@ -117,4 +117,30 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Verbs Scrabble es un juego en el que podras aprender los verbos regulares e irregulares
+del ingles de una forma rapida y entretenida.  La forma de juego es bastante sencilla, lo
+unico que ti enes que hacer es ingresar tu nick, seleccionar que categoria desear aprender
+y listo! 
+
+Cuando hayas seleccionado tu categoria el sistema te mostrara un verbo aleatoriamente,
+podras observar el mismo verbo en diferentes tiempos (infinitivo, simple past, past perfect)
+entonces tendras que escribir el verbo en el tiempo/categoria que hayas escogido
+
+
+</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Ejemplo.
+
+1.- Ingresas tu nick, puede ser el que tu quieras.
+2.- Seleccionas una categoria, para esta ocasion -&gt; Infinitivo
+3.- Aparecera un verbo aleatorio, supongamos que sera "play", entonces en 
+la pantalla aparecera el verbo "play" en simple past y pasterfect.
+
+Tu tendras que escribir el verbo en la categoria que escogiste: Infinitivo
+
+
+</value>
+  </data>
 </root>
