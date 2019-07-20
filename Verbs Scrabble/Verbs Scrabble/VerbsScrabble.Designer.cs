@@ -36,8 +36,11 @@
             this.btn_Play = new System.Windows.Forms.Button();
             this.panelExit = new System.Windows.Forms.Panel();
             this.btn_Exit = new System.Windows.Forms.PictureBox();
+            // Campos estaticos, espero no los elimine la AI
             VerbsScrabble.inicio1 = new Verbs_Scrabble.Inicio();
             VerbsScrabble.categorias1 = new Verbs_Scrabble.Categorias();
+            VerbsScrabble.verbsForm1 = new Verbs_Scrabble.VerbsForm();
+
             this.tutorial1 = new Verbs_Scrabble.Tutorial();
             this.contacto1 = new Verbs_Scrabble.Contacto();
             this.creditos1 = new Verbs_Scrabble.Creditos();
@@ -148,20 +151,13 @@
             this.btn_Exit.TabIndex = 0;
             this.btn_Exit.TabStop = false;
             this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
-            // 
+            //
             // inicio1
-            // 
+            //
             VerbsScrabble.inicio1.Location = new System.Drawing.Point(177, 53);
             VerbsScrabble.inicio1.Name = "inicio1";
             VerbsScrabble.inicio1.Size = new System.Drawing.Size(667, 396);
             VerbsScrabble.inicio1.TabIndex = 7;
-            // 
-            // categorias1
-            // 
-            VerbsScrabble.categorias1.Location = new System.Drawing.Point(177, 53);
-            VerbsScrabble.categorias1.Name = "categorias1";
-            VerbsScrabble.categorias1.Size = new System.Drawing.Size(667, 396);
-            VerbsScrabble.categorias1.TabIndex = 6;
             // 
             // tutorial1
             // 
@@ -183,6 +179,13 @@
             this.creditos1.Name = "creditos1";
             this.creditos1.Size = new System.Drawing.Size(667, 396);
             this.creditos1.TabIndex = 3;
+            //
+            // categorias1
+            //
+            VerbsScrabble.categorias1.Location = new System.Drawing.Point(177, 53);
+            VerbsScrabble.categorias1.Name = "categorias1";
+            VerbsScrabble.categorias1.Size = new System.Drawing.Size(667, 396);
+            VerbsScrabble.categorias1.TabIndex = 6;
             // 
             // VerbsScrabble
             // 
@@ -222,6 +225,7 @@
         private Tutorial tutorial1;
         public static Categorias categorias1;
         public static Inicio inicio1;
+        public static VerbsForm verbsForm1;
     }
 }
 

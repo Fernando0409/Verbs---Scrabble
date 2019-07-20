@@ -194,6 +194,7 @@
             this.btnNext.TabIndex = 20;
             this.btnNext.Text = "&Continuar";
             this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
             // VerbsForm
             // 
