@@ -42,9 +42,10 @@
             this.btnContinuar.Location = new System.Drawing.Point(254, 321);
             this.btnContinuar.Name = "btnContinuar";
             this.btnContinuar.Size = new System.Drawing.Size(141, 36);
-            this.btnContinuar.TabIndex = 13;
+            this.btnContinuar.TabIndex = 2;
             this.btnContinuar.Text = "&Continuar";
             this.btnContinuar.UseVisualStyleBackColor = true;
+            this.btnContinuar.Click += new System.EventHandler(this.btnContinuar_Click);
             // 
             // pictureBox1
             // 
@@ -73,7 +74,7 @@
             this.txtNickName.Multiline = true;
             this.txtNickName.Name = "txtNickName";
             this.txtNickName.Size = new System.Drawing.Size(166, 27);
-            this.txtNickName.TabIndex = 10;
+            this.txtNickName.TabIndex = 1;
             // 
             // Inicio
             // 
