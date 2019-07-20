@@ -84,7 +84,7 @@
             this.txtSugerence.Multiline = true;
             this.txtSugerence.Name = "txtSugerence";
             this.txtSugerence.Size = new System.Drawing.Size(552, 123);
-            this.txtSugerence.TabIndex = 6;
+            this.txtSugerence.TabIndex = 2;
             // 
             // txtEmail
             // 
@@ -93,7 +93,7 @@
             this.txtEmail.Multiline = true;
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(272, 33);
-            this.txtEmail.TabIndex = 7;
+            this.txtEmail.TabIndex = 1;
             // 
             // Contacto
             // 

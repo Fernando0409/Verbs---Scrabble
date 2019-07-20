@@ -27,10 +27,10 @@ namespace Verbs_Scrabble
             }
             else
             {
-                txtEmail.Text = "";
                 txtSugerence.Text = "";
                 MessageBox.Show("Gracias por tu comentario, trabajamos contantemente para tu satisfaccion",
                     "Notificación", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                txtSugerence.Focus();
             }
         }
     }
