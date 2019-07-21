@@ -76,6 +76,7 @@
             this.btnPP.TabIndex = 10;
             this.btnPP.Text = "Insert Picture";
             this.btnPP.UseVisualStyleBackColor = true;
+            this.btnPP.Click += new System.EventHandler(this.btnPP_Click);
             // 
             // btnSP
             // 
@@ -86,6 +87,7 @@
             this.btnSP.TabIndex = 9;
             this.btnSP.Text = "Insert Picture";
             this.btnSP.UseVisualStyleBackColor = true;
+            this.btnSP.Click += new System.EventHandler(this.btnSP_Click);
             // 
             // btnInfinitive
             // 
@@ -96,6 +98,7 @@
             this.btnInfinitive.TabIndex = 8;
             this.btnInfinitive.Text = "Insert Picture";
             this.btnInfinitive.UseVisualStyleBackColor = true;
+            this.btnInfinitive.Click += new System.EventHandler(this.btnInfinitive_Click);
             // 
             // label1
             // 
