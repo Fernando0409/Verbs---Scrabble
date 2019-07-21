@@ -56,7 +56,7 @@ namespace Verbs_Scrabble
         public string getVerbInfinitive()
         {
             string infinitive = "";
-            OpenConection();
+            OpenConnection();
             string sql = "SELECT verb FROM verbs_inifnitive WHERE id = '" + idVerb + "'";
             MySqlCommand mySql = new MySqlCommand(sql, dbConection);
 
@@ -74,14 +74,14 @@ namespace Verbs_Scrabble
                                 MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
 
-            CloseConection();
+            CloseConnection();
             return infinitive;
         }
 
         public string getVerbSP()
         {
             string sp = "";
-            OpenConection();
+            OpenConnection();
             string sql = "SELECT verb FROM verbs_simple_past WHERE id = '" + idVerb + "'";
             MySqlCommand mySql = new MySqlCommand(sql, dbConection);
 
@@ -100,14 +100,14 @@ namespace Verbs_Scrabble
                                 MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
 
-            CloseConection();   
+            CloseConnection();   
             return sp;
         }
 
         public string getVerbPP()
         {
             string pp = "";
-            OpenConection();
+            OpenConnection();
             string sql = "SELECT verb FROM verbs_inifnitive WHERE id = '" + idVerb + "'";
             MySqlCommand mySql = new MySqlCommand(sql, dbConection);
             try
@@ -125,7 +125,7 @@ namespace Verbs_Scrabble
                                 MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
 
-            CloseConection();
+            CloseConnection();
             return pp;
         }
     }
