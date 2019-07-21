@@ -32,6 +32,7 @@ namespace Verbs_Scrabble
             tutorial1.Hide();
             contacto1.Hide();
             creditos1.Hide();
+            verbsForm1.Hide();
         }
 
         private void btn_Tutorial_Click(object sender, EventArgs e)
@@ -41,6 +42,7 @@ namespace Verbs_Scrabble
             tutorial1.Show();
             contacto1.Hide();
             creditos1.Hide();
+            verbsForm1.Hide();
         }
 
         private void btn_Contact_Click(object sender, EventArgs e)
@@ -50,6 +52,7 @@ namespace Verbs_Scrabble
             tutorial1.Hide();
             contacto1.Show();
             creditos1.Hide();
+            verbsForm1.Hide();
         }
 
         private void btn_Credits_Click(object sender, EventArgs e)
@@ -59,6 +62,7 @@ namespace Verbs_Scrabble
             tutorial1.Hide();
             contacto1.Hide();
             creditos1.Show();
+            verbsForm1.Hide();
         }
 
         private void btn_Exit_Click(object sender, EventArgs e) => Application.Exit();

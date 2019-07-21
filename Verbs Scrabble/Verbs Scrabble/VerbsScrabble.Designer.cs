@@ -1,4 +1,4 @@
-﻿namespace Verbs_Scrabble
+namespace Verbs_Scrabble
 {
     partial class VerbsScrabble
     {
@@ -201,6 +201,7 @@
             this.ClientSize = new System.Drawing.Size(844, 449);
             this.Controls.Add(VerbsScrabble.inicio1);
             this.Controls.Add(VerbsScrabble.categorias1);
+            this.Controls.Add(VerbsScrabble.verbsForm1);
             this.Controls.Add(this.tutorial1);
             this.Controls.Add(this.contacto1);
             this.Controls.Add(this.creditos1);
